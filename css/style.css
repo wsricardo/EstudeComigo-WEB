@@ -1,0 +1,53 @@
+/* Selecionando "body" para aplicar estilo.
+*/
+body {
+	padding: 0;
+	margin: 0;
+}
+/*
+* Seletor "title-shop" define a regra a ser aplicado ao id "title-shop" aplicado na tag "div" que especifica o título na página
+*/
+#title-shop {
+	padding: 10px;
+	font-style:normal; 
+	font-weight:bold; 
+	font-size:xxx-large; 
+	text-align: center; 
+	background-color: whitesmoke; 
+	width: 100%;
+}
+
+#menu-nav {
+	padding: 8px;
+	list-style-type: none;
+}
+
+/* Tag com id menu-nav aplicado seleciona sua tag "ul"
+*/
+ul {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	background-color: gray;
+	overflow: hidden;
+	list-style-type: none;
+	color: white;
+
+}
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	padding: 8px;
+	text-decoration: none;
+	color: white;
+}
+
+li a:hover{
+	background-color: #e2e2e2;
+	color: #2f2e2e;
+}
+
+
